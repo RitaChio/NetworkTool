@@ -1,0 +1,45 @@
+/*Whole Page*/
+* {
+    margin:2pt;
+    padding:2pt;
+}
+/*Title*/
+.title {
+    background-color:rgb(223, 178, 178);
+}
+h1 {
+    padding:12pt;
+    color:rgb(0, 0, 0);
+    letter-spacing:2pt;
+    text-shadow:2px 2px 3px rgb(131, 131, 131);
+}
+
+/*Text-Box Style*/
+
+
+
+/*Grid Layout*/ 
+.wrapper {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap:10pt;
+    grid-row-gap:10pt;
+    grid-gap:10pt;
+}
+.wrapper > div{
+    background:#eee;
+    padding:10pt;
+    margin-right:12pt;
+}
+
+.wrapper > div:nth-child(odd){
+    background:#ddd;
+}
+
+/*Footer*/
+footer {
+    color: rgb(66, 66, 66);
+    background-color:rgb(167, 125, 125);
+    text-align:center;
+    padding:10pt;
+}
